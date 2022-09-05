@@ -1,0 +1,29 @@
+#logo{
+
+        }
+
+        body{
+            
+            background-image: url("/static/imagenes/fondo5.png");
+            background-attachment: fixed;
+            
+            
+        }
+
+        h1{
+            color: white ;
+            background-color: rgb(71, 1, 71);
+            text-align: center;
+        }
+
+        h2{
+            color: white ;
+            background-color: rgb(71, 1, 71);
+            text-align: center;
+        }
+
+        ul{
+            color: white ;
+            background-color: rgb(71, 1, 71);
+            text-align: center;
+        }

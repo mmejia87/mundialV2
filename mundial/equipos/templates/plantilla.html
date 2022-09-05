@@ -1,0 +1,97 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Equipos</title>
+    <link rel="stylesheet" href="/mundial/static/css/plantilla.css">
+    <link type="text/css" href="{% static 'css/plantilla.css' %}" rel="stylesheet"/>
+
+
+</head>
+<body>
+<nav>
+    <h1 class="anfitrion"> Selecciones del Mundial </h1>
+</nav>
+
+<div class="numequipos">
+    Numero de selecciones: {{team}}
+    <div class="buscar">
+        <input class="input" type="text" placeholder="Buscar">
+        <button class="btn">Buscar</button>
+    </div>
+</div>
+
+<div class="contenedores">
+    <div class="contenedor">
+        <div class="fondoEu">
+            <h2 class="continente"> EUROPA  </h2>
+            <ul>
+                {%for equipos in teamE%}
+                <li>
+                {{equipos.nombre}}
+                    {{equipos.confederacion}}
+                </li>
+                {%endfor%}
+            </ul>
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <div class="fondoAme">
+        <h2 class="continente">AMERICA</h2>
+            <ul>
+                {%for equipos in teamC%}
+                <li>
+                {{equipos.nombre}}
+                    {{equipos.confederacion}}
+
+                </li>
+                {%endfor%}
+            </ul>
+            <ul>
+                {%for equipos in teamS%}
+                <li>
+                {{equipos.nombre}}
+                    {{equipos.confederacion}}
+
+                </li>
+                {%endfor%}
+            </ul>
+        </div>
+    </div>
+    <div class="contenedor">
+        <div class="fondoAs">
+            <h2 class="continente"> ASIA  </h2>
+            <ul>
+                {%for equipos in teamA%}
+                <li>
+                {{equipos.nombre}}
+                    {{equipos.confederacion}}
+                </li>
+                {%endfor%}
+            </ul>
+        </div>
+    </div>
+    <div class="contenedor">
+        <div class="fondoAf">
+            <h2 class="continente"> AFRICA  </h2>
+            <ul>
+                {%for equipos in teamAf%}
+                <li>
+                {{equipos.nombre}}
+                    {{equipos.confederacion}}
+                </li>
+                {%endfor%}
+            </ul>
+        </div>
+    </div>
+</div>
+
+<main class="grupos">
+    
+    <button><a href="#">Grupos</a></button>
+</main>
+
+</body>
+</html>

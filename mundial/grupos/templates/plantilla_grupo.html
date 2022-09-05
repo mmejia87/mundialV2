@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Grupos</title>
+</head>
+<body>
+
+<h1> ELIMINATORIAS MUNDIALISTAS </h1>
+
+<link type="text/css" href="{% static 'css/plantilla_grupo.css' %}" rel="stylesheet"/>
+
+<img src="{% static "imagenes/majinboo.png" %}" alt="Logo">
+<div>
+    <h2> GRUPO A </h2>
+    <ul>
+        {%for grupos in groupA%}
+        <li>BANDERA
+        {{grupos.nombre}}
+        </li>
+        {%endfor%}
+    </ul>
+</div>
+
+<div>
+    <h2> GRUPO B </h2>
+    <ul>
+        {%for grupos in groupB%}
+        <li>BANDERA
+        {{grupos.nombre}}
+        </li>
+        {%endfor%}
+    </ul>
+</div>
+
+<div>
+    <h2> GRUPO C </h2>
+    <ul>
+        {%for grupos in groupC%}
+        <li>BANDERA
+        {{grupos.nombre}}
+        </li>
+        {%endfor%}
+    </ul>
+</div>
+
+<div>
+    <h2> GRUPO D </h2>
+    <ul>
+        {%for grupos in groupD%}
+        <li>BANDERA
+        {{grupos.nombre}}
+        </li>
+        {%endfor%}
+    </ul>
+</div>
+
+<div>
+    <h2> GRUPO E </h2>
+    <ul>
+        {%for grupos in groupE%}
+        <li>BANDERA
+        {{grupos.nombre}}
+        </li>
+        {%endfor%}
+    </ul>
+</div>
+
+<div>
+    <h2> GRUPO F </h2>
+    <ul>
+        {%for grupos in groupF%}
+        <li>BANDERA
+        {{grupos.nombre}}
+        </li>
+        {%endfor%}
+    </ul>
+</div>
+
+<div>
+    <h2> GRUPO G </h2>
+    <ul>
+        {%for grupos in groupG%}
+        <li>BANDERA
+        {{grupos.nombre}}
+        </li>
+        {%endfor%}
+    </ul>
+</div>
+
+<div>
+    <h2> GRUPO H </h2>
+    <ul>
+        {%for grupos in groupH%}
+        <li>BANDERA
+        {{grupos.nombre}}
+        </li>
+        {%endfor%}
+    </ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Busqueda equipos</title>
+    <link rel = "stylesheet" href="static/busqueda.css"/>
+</head>
+<body>
+  <form action="/buscar/" method="GET">
+
+    <input type="text" name="bqda">
+    <input type="submit" value="Buscar">
+
+   <img src="{% static 'imagen/css3.png' %}" alt="My image">
+
+  </form>
+</body>
+</html>

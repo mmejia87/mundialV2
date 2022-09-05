@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../imagenes/fondo5.png");
+}
+
+nav{
+    display: flex;
+    height: 70px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+div a:hover{
+    color: blue;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.anfitrion{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo_img{
+    height: 60px;
+    margin-right: 10px;
+}
+
+.contenedores{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    cursor: default;
+
+}
+
+.contenedor{
+    width: 250px;
+    padding: 10px;
+    margin: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #ffffbf;
+    transition: all 400ms ease;
+}
+
+
+.contenedor:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.grupo{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid rgb(86, 7, 12);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.caja{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.pais{
+    margin: 10px;
+    text-align: center;
+    position: initial;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bandera{
+    border-radius: 30%;
+    width: 50px;
+}

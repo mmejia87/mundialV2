@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/static/imagenes/fondo5.png");
+}
+
+nav{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+.numequipos{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input{
+    border-radius: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.btn{
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+
+}
+
+
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.continente{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.anfitrion{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    border-bottom: 4px solid white;
+}
+
+.logo_img{
+    height: 60px;
+    margin-right: 10px;
+}
+
+.contenedores{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    cursor: default;
+
+}
+
+.contenedor{
+    width: 250px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    transition: all 400ms ease;
+}
+
+.fondoEu{
+    background-image: url(../imagenes/europeo.jpg);
+    height: 490px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.fondoAme{
+    background-image: url(../imagenes/america2.jpg);
+    height: 490px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.fondoAs{
+    background-image: url(../imagenes/asia3.jpg);
+    height: 490px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.fondoAf{
+    background-image: url(../imagenes/africa.jpg);
+    height: 490px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.contenedor:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.contenedor:hover{
+    color: blue;
+}
+
+.continente{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+    border-bottom: 3px solid rgb(86, 7, 12);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul li{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.bandera{
+    border-radius: 30%;
+    width: 50px;
+}
+
+.grupos{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color:rgb(180, 6, 6);
+}
